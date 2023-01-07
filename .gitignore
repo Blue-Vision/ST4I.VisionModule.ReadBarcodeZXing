@@ -1,0 +1,11 @@
+ST4I.Vision.Component/bin
+ST4I.Vision.Component/obj
+ST4I.Vision.Core/bin
+ST4I.Vision.Core/obj
+ST4I.Vision.Controls/bin
+ST4I.Vision.Controls/obj
+VisionBuildComponent/bin
+VisionBuildComponent/obj
+TestVisionCore/bin
+TestVisionCore/obj
+.vs

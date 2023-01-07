@@ -1,0 +1,10 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:ST4I.Vision.Controls">
+
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/ST4I.Vision.BaseControls;component/Themes/Generic.xaml" />
+        <ResourceDictionary Source="/ST4I.Wpf.Themes;component/Themes/DefaultTheme.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+
+</ResourceDictionary>

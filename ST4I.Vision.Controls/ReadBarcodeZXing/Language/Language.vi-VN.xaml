@@ -1,0 +1,33 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <sys:String x:Key="lang.main">T.Chính</sys:String>
+    <sys:String x:Key="lang.roiType">Loại ROI</sys:String>
+    <sys:String x:Key="lang.limit">Giới Hạn</sys:String>
+    <sys:String x:Key="lang.advanced">Nâng Cao</sys:String>
+    <sys:String x:Key="lang.optimize">Hiệu Chỉnh</sys:String>
+    <sys:String x:Key="lang.barcodeResult">Kết Quả Barcode</sys:String>
+    <sys:String x:Key="lang.imageSource">Nguồn Ảnh</sys:String>
+    <sys:String x:Key="lang.repositionROI">Định VỊ ROI</sys:String>
+    <sys:String x:Key="lang.setupLimit">Cài Đặt Giới Hạn</sys:String>
+    <sys:String x:Key="lang.view">Hiển Thị</sys:String>
+    <sys:String x:Key="lang.save">Lưu</sys:String>
+    <sys:String x:Key="lang.cancel">Đóng</sys:String>
+    <sys:String x:Key="lang.test">Đọc Barcode</sys:String>
+    <sys:String x:Key="lang.setting">Cài đặt</sys:String>
+    <sys:String x:Key="lang.index">Thứ tự</sys:String>
+    <sys:String x:Key="lang.content">Nội dung</sys:String>
+    <sys:String x:Key="lang.barcodeType">Loại barcode</sys:String>
+    <sys:String x:Key="lang.contentCompare">Nội dung so sánh</sys:String>
+    <sys:String x:Key="lang.enableCompareContent">Bật so sánh nội dung</sys:String>
+    <sys:String x:Key="lang.enableCodeContains">Bật kiểm tra nội dung có trong kết quả</sys:String>
+    <sys:String x:Key="lang.codeContains">Nội dung kiểm tra</sys:String>
+    <sys:String x:Key="lang.numOfBarcodeToRead">Số lượng barcode tìm kiếm</sys:String>
+    <sys:String x:Key="lang.typesOfBarcodeToSearch">Các kiểu barcode tìm kiếm </sys:String>
+    <sys:String x:Key="lang.selectAll">Chọn tất cả</sys:String>
+    <sys:String x:Key="lang.autoExcuteCheck">Tự động thử nghiệm khi thay đổi cài đặt</sys:String>
+    <sys:String x:Key="lang.autoExcuteCheckToolTip">Tính năng này hỗ trợ người dùng thử nghiệm nhanh thông số cài đặt</sys:String>
+    <sys:String x:Key="lang.pureMonochromeImage">Hình ảnh đơn sắc thuần túy</sys:String>
+    <sys:String x:Key="lang.optimizeForAccuracy">Tối ưu độ chính xác</sys:String>
+    <sys:String x:Key="lang.invertedImage">Hình ảnh đảo ngược</sys:String>
+</ResourceDictionary>

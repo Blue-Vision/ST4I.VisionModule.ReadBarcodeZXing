@@ -1,0 +1,35 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    
+    <sys:String x:Key="lang.main">Main</sys:String>
+    <sys:String x:Key="lang.roiType">ROI Type</sys:String>
+    <sys:String x:Key="lang.limit">Limit</sys:String>
+    <sys:String x:Key="lang.advanced">Advanced</sys:String>
+    <sys:String x:Key="lang.optimize">Optimize</sys:String>
+    <sys:String x:Key="lang.barcodeResult">Barcode Result</sys:String>
+    <sys:String x:Key="lang.imageSource">Image Source</sys:String>
+    <sys:String x:Key="lang.repositionROI">Reposition ROI</sys:String>
+    <sys:String x:Key="lang.setupLimit">Setup Limitation</sys:String>
+    <sys:String x:Key="lang.view">View</sys:String>
+    <sys:String x:Key="lang.save">Save</sys:String>
+    <sys:String x:Key="lang.cancel">Cancel</sys:String>
+    <sys:String x:Key="lang.test">Read Barcode</sys:String>
+    <sys:String x:Key="lang.setting">Setting</sys:String>
+    <sys:String x:Key="lang.index">Index</sys:String>
+    <sys:String x:Key="lang.content">Content</sys:String>
+    <sys:String x:Key="lang.barcodeType">Barcode Type</sys:String>
+    <sys:String x:Key="lang.contentCompare">Content</sys:String>
+    <sys:String x:Key="lang.enableCompareContent">Enable Compare Content</sys:String>
+    <sys:String x:Key="lang.enableCodeContains">Enable Code Contains</sys:String>
+    <sys:String x:Key="lang.codeContains">Code Contains</sys:String>
+    <sys:String x:Key="lang.numOfBarcodeToRead">Number Of Barcodes</sys:String>
+    <sys:String x:Key="lang.typesOfBarcodeToSearch">Types Of Barcode To Search</sys:String>
+    <sys:String x:Key="lang.selectAll">Select All</sys:String>
+    <sys:String x:Key="lang.autoExcuteCheck">Auto Check When Property Change</sys:String>
+    <sys:String x:Key="lang.autoExcuteCheckToolTip">This feature supports user can change paramater and test result in realtime</sys:String>
+    <sys:String x:Key="lang.pureMonochromeImage">Pure Monochrome Image</sys:String>
+    <sys:String x:Key="lang.optimizeForAccuracy">Optimize For Accuracy</sys:String>
+    <sys:String x:Key="lang.invertedImage">Inverted Image</sys:String>
+    
+</ResourceDictionary>

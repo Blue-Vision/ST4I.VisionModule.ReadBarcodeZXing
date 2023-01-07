@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="OpenCvSharp4" Version="4.5.5.20211231" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ST4I.Vision.Core\ST4I.Vision.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="NationalInstruments.Vision">
+      <HintPath>C:\SharePackages\Labview\x64\NationalInstruments.Vision.dll</HintPath>
+    </Reference>
+    <Reference Include="NationalInstruments.Vision.Common">
+      <HintPath>C:\SharePackages\Labview\x64\NationalInstruments.Vision.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="ST4I.Vision.BaseCore">
+      <HintPath>C:\SharePackages\ST4I\Any\ST4I.Vision.BaseCore.dll</HintPath>
+    </Reference>
+    <Reference Include="ST4I.Vision.BaseSolution">
+      <HintPath>C:\SharePackages\ST4I\Any\ST4I.Vision.BaseSolution.dll</HintPath>
+    </Reference>
+    <Reference Include="ST4I.Vision.BaseSolutionNI">
+      <HintPath>C:\SharePackages\ST4I\Any\ST4I.Vision.BaseSolutionNI.dll</HintPath>
+    </Reference>
+    <Reference Include="ST4I.Vision.Common">
+      <HintPath>C:\SharePackages\ST4I\Any\ST4I.Vision.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

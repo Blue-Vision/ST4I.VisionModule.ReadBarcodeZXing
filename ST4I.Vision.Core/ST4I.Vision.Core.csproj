@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="OpenCvSharp4" Version="4.5.5.20211231" />
+    <PackageReference Include="ZXing.Net" Version="0.16.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ST4I.Vision.BaseCore">
+      <HintPath>C:\SharePackages\ST4I\Any\ST4I.Vision.BaseCore.dll</HintPath>
+    </Reference>
+    <Reference Include="ST4I.Vision.Common">
+      <HintPath>C:\SharePackages\ST4I\Any\ST4I.Vision.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
