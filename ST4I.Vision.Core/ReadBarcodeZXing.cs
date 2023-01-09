@@ -64,7 +64,7 @@ namespace ST4I.Vision.Core
         /// <summary>
         /// <inheritdoc cref="IVisionModule.ModuleType"/>
         /// </summary>
-        public VisionModuleType ModuleType { get { return VisionModuleType.ReadBarcodeNI; } }
+        public VisionModuleType ModuleType { get { return VisionModuleType.ReadBarcode; } }
         /// <summary>
         /// Vùng đo đạc
         /// </summary>

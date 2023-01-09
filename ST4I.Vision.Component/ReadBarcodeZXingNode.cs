@@ -10,7 +10,7 @@ namespace ST4I.Vision.Component
     /// <summary>
     /// Node có chức năng đọc barcode
     /// </summary>
-    public class ReadBarcodeZXingNode : NodeVisionModuleNI, INodeDisplayResult
+    public class ReadBarcodeZXingNode : NodeVisionModule, INodeDisplayResult
     {
         /// <summary>
         /// <inheritdoc cref="INode.Module"/>
@@ -32,7 +32,7 @@ namespace ST4I.Vision.Component
         /// <summary>
         /// <inheritdoc cref="INode.Type"/>
         /// </summary>
-        public override NodeType Type { get { return NodeType.ReadBarcodeNI; } }
+        public override NodeType Type { get { return NodeType.ReadBarcode; } }
         /// <summary>
         /// <inheritdoc cref="INodeInput.ReceiveDataType"/>
         /// </summary>
@@ -44,7 +44,7 @@ namespace ST4I.Vision.Component
         /// <summary>
         /// <inheritdoc cref="INodeDisplayResult.OverlaySetting"/>
         /// </summary>
-        public DisplayOverlaySetting OverlaySetting { get; set; } = new DisplayOverlaySetting() { ObjectFeatureExisted = true, IsShowObjectRegion = true};
+        public DisplayOverlaySetting OverlaySetting { get; set; } = new DisplayOverlaySetting() { ObjectFeatureExisted = true, IsShowObjectRegion = true, IsShowObjectContent = true };
         /// <summary>
         /// <inheritdoc cref="INodeInputImage.ImageSupportedType"/>
         /// </summary>

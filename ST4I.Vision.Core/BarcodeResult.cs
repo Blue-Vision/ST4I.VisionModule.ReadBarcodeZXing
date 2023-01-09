@@ -20,7 +20,7 @@ namespace ST4I.Vision.Core
         /// Toạ độ các đỉnh của đối tượng được tìm thấy
         /// </summary>
         [KeyAttribute(KeyAttributeType.Collection, "4 Vertices")]
-        public Point2d[] Vertices { get; set; }
+        public Point2d[] Vertices { get; set; } = new Point2d[0];
         /// <summary>
         /// Loại barcode
         /// </summary>
@@ -43,6 +43,6 @@ namespace ST4I.Vision.Core
         /// <summary>
         /// Danh sách kết qủa barcode
         /// </summary>
-        public List<BarcodeReport> BarcodeItems { get; set; }
+        public List<BarcodeReport> BarcodeItems { get; set; } = new List<BarcodeReport>();
     }
 }

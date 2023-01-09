@@ -23,9 +23,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="NationalInstruments.Vision.Common">
-      <HintPath>C:\SharePackages\Labview\x64\NationalInstruments.Vision.Common.dll</HintPath>
-    </Reference>
     <Reference Include="ST4I.Vision.BaseControls">
       <HintPath>C:\SharePackages\ST4I\Any\ST4I.Vision.BaseControls.dll</HintPath>
     </Reference>
